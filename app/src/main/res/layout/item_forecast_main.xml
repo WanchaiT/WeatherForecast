@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lin_detail_weather"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/bg_item"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/lin_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tv_city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textSize="55sp"
+                android:text="london"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/lin_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Temperature"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:id="@+id/tv_data_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="40sp"
+                        android:textStyle="bold"
+                        android:text="27.6"/>
+
+                    <TextView
+                        android:id="@+id/tv_unit_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="4dp"
+                        android:text="C"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lin_hum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_hum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Humidity"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:id="@+id/tv_data_hum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="40sp"
+                        android:textStyle="bold"
+                        android:text="27.6"/>
+
+                    <TextView
+                        android:id="@+id/tv_unit_hum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="4dp"
+                        android:text="%"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <!--                <com.example.weatherforecast.customView.CustomViewItemForecastMain-->
+        <!--                    android:id="@+id/ctv_temp"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:padding="10dp"/>-->
+
+        <!--                <com.example.weatherforecast.customView.CustomViewItemForecastMain-->
+        <!--                    android:id="@+id/ctv_humidity"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:padding="10dp" />-->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

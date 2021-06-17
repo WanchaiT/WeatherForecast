@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="text_back">Back</string>
+    <string name="text_city">City</string>
+    <string name="text_humidity">Humidity</string>
+    <string name="text_something_went_wong">Something went wong</string>
+    <string name="text_temperature">Temperature</string>
+</resources>

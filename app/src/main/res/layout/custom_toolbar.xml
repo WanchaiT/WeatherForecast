@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/black"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lin_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:text="@string/text_back"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Weather"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

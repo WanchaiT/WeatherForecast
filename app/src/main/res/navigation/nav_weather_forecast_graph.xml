@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_weather_forecast_graph"
+    app:startDestination="@id/mainWeatherForecastFragment">
+
+    <fragment
+        android:id="@+id/mainWeatherForecastFragment"
+        android:name="com.example.weatherforecast.featureWeatherForecast.fragment.MainWeatherForecastFragment"
+        android:label="main_weather_forecast_fragment"
+        tools:layout="@layout/main_weather_forecast_fragment" >
+        <action
+            android:id="@+id/action_mainWeatherForecastFragment_to_forecastFragment"
+            app:destination="@id/hourForecastFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hourForecastFragment"
+        android:name="com.example.weatherforecast.featureWeatherForecast.fragment.HourForecastFragment"
+        android:label="forecast_fragment"
+        tools:layout="@layout/hour_forecast_fragment" >
+        <argument
+            android:name="listOfHourForecast"
+            app:argType="com.example.weatherforecast.featureWeatherForecast.model.HourForecastResponse"
+            app:nullable="true" />
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+        <argument
+            android:name="timeZone"
+            app:argType="integer" />
+    </fragment>
+</navigation>

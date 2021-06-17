@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gray">#f0f0f0</color>
+    <color name="blue">#2080ff</color>
+    <color name="red">#E30909</color>
+    <color name="yellow">#f0b010</color>
+
+    <color name="green1">#9ad9db</color>
+    <color name="green2">#81cfd2</color>
+    <color name="green3">#68c6c9</color>
+    <color name="green4">#4fbcc0</color>
+    <color name="green5">#36b3b7</color>
+    <color name="green6">#1da9ae</color>
+    <color name="green7">#04a0a5</color>
+    <color name="green8">#04a0a5</color>
+    <color name="green9">#039094</color>
+    <color name="green10">#038084</color>
+
+    <color name="temp1">#66dcff</color>
+    <color name="temp2">#4fbcc0</color>
+    <color name="temp3">#00e5c8</color>
+    <color name="temp4">#00cf30</color>
+    <color name="temp5">#aae500</color>
+    <color name="temp6">#fbcb05</color>
+    <color name="temp7">#e19504</color>
+    <color name="temp8">#e16904</color>
+    <color name="temp9">#fb4f05</color>
+    <color name="temp10">#ff2f05</color>
+
+</resources>

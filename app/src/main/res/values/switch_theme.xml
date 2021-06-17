@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    &lt;!&ndash; active thumb & track color (30% transparency) &ndash;&gt;-->
+<!--    <item name="colorControlActivated">#46bdbf</item>-->
+
+<!--    &lt;!&ndash; inactive thumb color &ndash;&gt;-->
+<!--    <item name="colorSwitchThumbNormal">#f1f1f1-->
+<!--    </item>-->
+
+<!--    &lt;!&ndash; inactive track color (30% transparency) &ndash;&gt;-->
+<!--    <item name="android:colorForeground">#42221f1f-->
+<!--    </item>-->
+</resources>
